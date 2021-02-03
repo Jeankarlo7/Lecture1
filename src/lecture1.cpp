@@ -30,6 +30,8 @@ int main()
   Triangle t1(10,10,10);
   cout << "Area is:" << t1.getArea() << endl;
 
+  cout << "Dummy cout" << endl;
+  
   Triangle t2(20,20, 20);
   cout << "Area is:" << t2.getArea() << endl;
 
