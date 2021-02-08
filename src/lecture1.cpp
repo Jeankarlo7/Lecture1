@@ -14,18 +14,18 @@ using namespace std;
 //   return area;
 // }
 
-double sumAreas(Triangle triangles[], int numTriangles)
-{
-  // Code to sum the areas of all the triangles in the array
+// double sumAreas(Triangle triangles[], int numTriangles)
+// {
+//   // Code to sum the areas of all the triangles in the array
 
-  double sum = 0.0;
-  for(int i=0; i<numTriangles; i++) {
-    sum += triangles[i].getArea();
-  }
+//   double sum = 0.0;
+//   for(int i=0; i<numTriangles; i++) {
+//     sum += triangles[i].getArea();
+//   }
 
-  return sum;
+//   return sum;
 
-}
+// }
 
 int main()
 {
@@ -45,6 +45,6 @@ int main()
 
   Triangle myTriangles[] = { t1, t2, t3 };
 
-  cout << "The sum of the areas is: " << sumAreas(myTriangles, 3) << endl;
+  cout << "The sum of the areas is: " << Triangle::sumAreas(myTriangles, 3) << endl;
   
 }

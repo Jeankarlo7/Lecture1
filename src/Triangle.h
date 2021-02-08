@@ -33,5 +33,6 @@ class Triangle {
     // Instance methods
     double getArea();
     bool largerThan(Triangle t2);
+    static double sumAreas(Triangle triangles[], int numTriangles);
 
 };

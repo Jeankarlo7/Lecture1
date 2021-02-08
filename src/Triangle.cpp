@@ -15,3 +15,16 @@ bool Triangle::largerThan(Triangle t2)
 {
   return this->getArea() > t2.getArea();
 }
+
+double Triangle::sumAreas(Triangle triangles[], int numTriangles)
+{
+  // Code to sum the areas of all the triangles in the array
+
+  double sum = 0.0;
+  for (int i = 0; i < numTriangles; i++)
+  {
+    sum += triangles[i].getArea();
+  }
+
+  return sum;
+}
