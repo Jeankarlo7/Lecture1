@@ -38,6 +38,6 @@ int main()
   Triangle t3(10, 20, 30);
   cout << "Area is:" << t3.getArea() << endl;
 
-  cout << "That's all dudes!" << endl;
+  cout << "That's all dudes2!" << endl;
 
 }
