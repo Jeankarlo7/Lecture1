@@ -27,12 +27,7 @@ using namespace std;
 
 // }
 
-void enlargeTriangle(Triangle t, double factor)
-{
-  t.setSide1(t.getSide1() * factor);
-  t.setSide2(t.getSide2() * factor);
-  t.setSide3(t.getSide3() * factor);
-}
+
 
 int main()
 {
@@ -54,7 +49,7 @@ int main()
 
   cout << "The sum of the areas is: " << Triangle::sumAreas(myTriangles, 3) << endl;
   
-  enlargeTriangle(t3,2.0);
+  t3.enlargeTriangle(2.0);
 
   cout << "Enlarged area is:" << t3.getArea() << endl;
 

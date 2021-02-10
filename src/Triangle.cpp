@@ -28,3 +28,10 @@ double Triangle::sumAreas(Triangle triangles[], int numTriangles)
 
   return sum;
 }
+
+void Triangle::enlarge(double factor)
+{
+  this->setSide1(this->getSide1() * factor);
+  this->setSide2(this->getSide2() * factor);
+  this->setSide3(this->getSide3() * factor);
+}
