@@ -49,7 +49,7 @@ int main()
 
   cout << "The sum of the areas is: " << Triangle::sumAreas(myTriangles, 3) << endl;
   
-  t3.enlargeTriangle(2.0);
+  t3.enlarge(2.0);
 
   cout << "Enlarged area is:" << t3.getArea() << endl;
 
