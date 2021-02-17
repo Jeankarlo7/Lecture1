@@ -35,4 +35,6 @@ class Triangle {
     bool largerThan(Triangle t2);
     static double sumAreas(Triangle triangles[], int numTriangles);
     void enlarge(double factor);
+    void enlarge();
+
 };

@@ -35,3 +35,11 @@ void Triangle::enlarge(double factor)
   this->setSide2(this->getSide2() * factor);
   this->setSide3(this->getSide3() * factor);
 }
+
+void Triangle::enlarge()
+{
+  this->enlarge(2);
+}
+
+
+
