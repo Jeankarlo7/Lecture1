@@ -36,5 +36,6 @@ class Triangle {
     static double sumAreas(Triangle triangles[], int numTriangles);
     void enlarge(double factor);
     void enlarge();
+    Triangle Triangle::enlargeImmutable(double factor);
 
 };

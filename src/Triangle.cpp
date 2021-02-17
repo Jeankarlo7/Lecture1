@@ -41,5 +41,11 @@ void Triangle::enlarge()
   this->enlarge(2);
 }
 
+Triangle Triangle::enlargeImmutable(double factor)
+{
+  Triangle result(getSide1() * factor, getSide2() * factor, getSide3() * factor);
+  return result;
+}
+
 
 
